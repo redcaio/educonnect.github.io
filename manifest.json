@@ -1,0 +1,80 @@
+{
+"display_override": ["window-controls-overlay"], 
+"protocol_handlers": [{"protocol":"mailto","url":"/newEmail?to=%s"}], 
+"shortcuts": [
+  {
+    "name": "Start Live Session",
+    "short_name": "Start Live",
+    "description": "Jump direction into starting or joining a live session",
+    "url": "/?startLive",
+    "icons": [
+      {
+        "src": "https://pwabuilder.com/assets/icons/icon_192.png",
+        "sizes": "192x192"
+      }
+    ]
+  }
+], 
+"screenshots": [
+  {
+    "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+    "sizes": "2880x1800",
+    "type": "image/png",
+    "description": "PWABuilder Home Screen"
+  },
+  {
+    "src": "https://www.pwabuilder.com/assets/screenshots/screen2.png",
+    "sizes": "2880x1800",
+    "type": "image/png",
+    "description": "PWABuilder Report Card"
+  },
+  {
+    "src": "https://www.pwabuilder.com/assets/screenshots/screen3.png",
+    "sizes": "2880x1800",
+    "type": "image/png",
+    "description": "Manifest information on the Report Card"
+  }
+], 
+  "background_color": "#82c0bd",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Edu Connect",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Edu Connect",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "EDc",
+  "description": "Aplicativo focado em educação a distância.",
+  "categories": [
+    "education",
+    "kids",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "images/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
